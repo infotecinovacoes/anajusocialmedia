@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+@media (max-width: 767px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        scroll-behavior: smooth;
+        background-color: #f2f2f2;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .direitos {
+        display: none;
+    }
+
+    .topo {
+        display: none;
+    }
+
+    .footer1 {
+        display: none;
+    }
+
+    /* preloader */
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #0C0807;
+        z-index: 999999;
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgba(0, 0, 0, .7);
+        background-color: #f2f2f2;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 30px;
+        padding: 5px 10px;
+    }
+
+    /* preloader */
+
+    section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    /* bloco icons lateral direita */
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 99999;
+    }
+
+    .box .inicio {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 30px;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .box .whats {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 30px;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .box .insta {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 30px;
+        display: flex;
+    }
+
+    .box a:hover {
+        background-color: transparent;
+    }
+
+    /* bloco icons lateral direita */
+
+    /* footer-cel */
+
+    footer {
+        background-color: #f2f2f2;
+        padding-top: 20px;
+    }
+
+    .footer-cel1 {
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0px;
+        display: flex;
+        width: 100%;
+    }
+
+    .footer-cel1 a {
+        width: 230px;
+        text-decoration: none;
+        color: black;
+        border-bottom: 1px solid black;
+        font-size: 12px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-cel1 i {
+        color: red;
+        width: 20px;
+        padding-right: 15px;
+    }
+
+    .footer-cel1 a:hover {
+        border-bottom: 1px solid red;
+        color: red;
+    }
+
+    .footer-cel2 {
+        padding: 30px 0px;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-cel2 i {
+        color: #f2f2f2;
+        font-size: 30px;
+        height: 100%;
+        font-weight: bold;
+    }
+
+    .whatsapp i {
+        color: lime;
+    }
+
+    .whatsapp i:hover {
+        transition: 0.2s;
+    }
+
+    .instagram i {
+        color: red;
+    }
+
+    .instagram i:hover {
+        transition: 0.2s;
+    }
+
+    /* footer-cel */
+
+    /* direitos reservados */
+    .direitos-cel {
+        width: 100%;
+        display: flex;
+        background-color: black;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .direitos1-cel,
+    .direitos2-cel {
+        width: 50%;
+        font-size: 12px;
+        font-family: 'Exo', sans-serif;
+        color: #f2f2f2;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 18px;
+        padding: 5px 0px;
+    }
+
+    .direitos1-cel a {
+        text-decoration: none;
+        color: red;
+    }
+
+    .direitos2-cel a {
+        text-decoration: none;
+        color: red;
+    }
+
+    /* direitos reservados */
+}
+
+@media (min-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        scroll-behavior: smooth;
+        background-color: #f2f2f2;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .direitos-cel {
+        display: none;
+    }
+
+    .arrow-button {
+        display: none;
+    }
+
+    .footer-cel {
+        display: none;
+    }
+
+    /* preloader */
+    #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #0C0807;
+        z-index: 999999;
+    }
+
+    .car {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgba(0, 0, 0, .7);
+        background-color: #f2f2f2;
+        font-weight: bold;
+        padding: 5px;
+    }
+
+    /* preloader */
+    section {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    /* bloco icons lateral direita */
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 99999;
+    }
+
+    .box .inicio {
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 30px;
+        display: flex;
+        margin-bottom: 15px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .box .whats {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 30px;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .box .insta {
+        width: 32px;
+        height: 32px;
+        background-color: white;
+        border: 3px solid transparent;
+        border-radius: 30px;
+        display: flex;
+    }
+
+    .box a:hover {
+        background-color: transparent;
+    }
+
+    /* bloco icons lateral direita */
+
+    /* rodape */
+    footer {
+        background: #f2f2f2;
+        overflow-x: hidden;
+    }
+
+    .footer1 {
+        text-align: center;
+        position: relative;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+    }
+
+    /* 1 */
+    .footer-content1 {
+        width: 33%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-content1 img {
+        width: 180px;
+        height: 180px;
+        transition: 0.2s;
+    }
+
+    .footer-content1 img:hover {
+        box-shadow: 0 0 10px red;
+        transition: 0.2s;
+    }
+
+    /* 1 */
+
+    /* 2 */
+    .footer-content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 33%;
+    }
+
+    .footer-item2 {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        margin: 8px 0px;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .footer-item2 a {
+        width: 230px;
+        text-decoration: none;
+        color: black;
+        border-bottom: 1px solid black;
+        font-family: 'Cinzel', serif;
+        font-size: 13px;
+        text-align: center;
+        display: flex;
+        justify-content: left;
+        font-weight: bold;
+        align-items: center;
+        margin-bottom: 5px;
+        transition: 0.1s;
+    }
+
+    .footer-item2 i {
+        width: 10px;
+        padding-right: 20px;
+        color: red;
+    }
+
+    .footer-item2 a:hover {
+        border-bottom: 1px solid red;
+        color: red;
+        transition: 0.1s;
+    }
+
+    /* 2 */
+
+    /* 3 */
+    .footer-content3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33%;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icons i {
+        display: inline-flex;
+        color: white;
+        text-decoration: none;
+        width: 65px;
+        height: 65px;
+        font-size: 32px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-icons a {
+        width: 65px;
+        height: 65px;
+        margin: 32px;
+    }
+
+    .whatsapp i {
+        border: 3px solid black;
+        color: limegreen;
+        background-color: black;
+        transition: 0.2s;
+        border-radius: 50%;
+    }
+
+    .whatsapp i:hover {
+        transition: 0.2s;
+        border: 3px solid limegreen;
+        background-color: #f2f2f2;
+        box-shadow: 0 0 15px lime;
+    }
+
+    .instagram i {
+        border: 3px solid black;
+        color: red;
+        background-color: black;
+        transition: 0.2s;
+        border-radius: 50%;
+    }
+
+    .instagram i:hover {
+        transition: 0.2s;
+        border: 3px solid red;
+        background-color: #f2f2f2;
+        box-shadow: 0 0 15px red;
+    }
+
+    /* rodape */
+
+    /* direitos reservados */
+    .direitos {
+        width: 100%;
+        display: flex;
+        background-color: black;
+        justify-content: center;
+    }
+
+    .direitos1,
+    .direitos2 {
+        width: 50%;
+        font-family: 'Exo', sans-serif;
+        color: #f2f2f2;
+        font-size: 13px;
+        text-align: center;
+        padding: 10px 0px;
+        font-weight: bold;
+    }
+
+    .direitos1 a,
+    .direitos2 a {
+        text-decoration: none;
+        color: red;
+    }
+
+    .direitos1 a:hover,
+    .direitos2 a:hover {
+        text-decoration: underline;
+    }
+
+    /* direitos reservados */
+}

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+@media (max-width: 767px) {
+    .bloco-quem-somos {
+        display: none;
+    }
+
+    /* menu */
+    .arrow-button {
+        border-bottom: 1px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        display: flex;
+        padding: 13px 0px;
+        align-items: center;
+        top: 0;
+        margin: 0;
+        background-color: #181719;
+        color: #f2f2f2;
+        letter-spacing: 2px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 10px;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 999;
+    }
+
+    .arrow-button i {
+        margin-right: 15px;
+        vertical-align: middle;
+    }
+
+    .hidden-pages {
+        display: none;
+        position: fixed;
+        top: 42px;
+        width: 100%;
+        height: 100%;
+        background-color: #f2f2f2;
+        z-index: 9999;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .page a {
+        text-decoration: none;
+        background-color: #f2f2f2;
+        color: black;
+        height: 100%;
+        display: flex;
+        padding: 13px 0px;
+        cursor: pointer;
+        letter-spacing: 0px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        font-size: 10px;
+        padding-left: 50px;
+        position: relative;
+    }
+
+    .page a i {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 20px;
+        vertical-align: middle;
+        color: red;
+    }
+
+    .show-pages {
+        opacity: 1;
+    }
+
+    /* menu */
+
+    /* titulo1 */
+
+    .titulo1 {
+        background-color: #181719;
+    }
+
+    .titulo1 h1 {
+        color: #DAA520;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 25px;
+        padding: 30px 0px;
+    }
+
+    /* titulo1 */
+
+    /* bloco-imagem1 */
+
+    .bloco-imagem1 {
+        background-color: #181719;
+        padding-bottom: 50px;
+    }
+
+    .bloco-imagem1-filho img {
+        width: 100%;
+        object-fit: cover;
+        padding-top: 20px;
+        background-color: black;
+    }
+
+    .bloco-imagem2-filho {
+        background-color: #181719;
+        padding: 0px 20px;
+    }
+
+    .bloco-imagem2-filho h1 {
+        color: #DAA520;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        margin: -5px 0px;
+        padding: 30px 20px;
+    }
+
+    .bloco-imagem2-filho p {
+        text-align: left;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        color: #f2f2f2;
+        font-size: 15px;
+        line-height: 20px;
+        border: 1px solid #DAA520;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    /* bloco-imagem1 */
+
+    /* bloco-imagem3 */
+
+    .bloco-imagem3 {
+        background-color: #181719;
+        padding-bottom: 30px;
+    }
+
+    .bloco-imagem3-filho img {
+        width: 100%;
+        object-fit: cover;
+        padding-top: 20px;
+        background-color: black;
+    }
+
+    .bloco-imagem4-filho {
+        padding: 0px 20px;
+    }
+
+    .bloco-imagem4-filho h1 {
+        color: #DAA520;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        margin: -5px 0px;
+        padding: 30px 20px;
+    }
+
+    .bloco-imagem4-filho p {
+        text-align: left;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        color: #f2f2f2;
+        font-size: 15px;
+        line-height: 20px;
+        border: 1px solid #DAA520;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    /* bloco-imagem3 */
+
+    /* bloco-quem-somos-cel */
+    .bloco-quem-somos-cel {
+        background-color: #181719;
+        padding-bottom: 50px;
+    }
+
+    .bloco-quem-somos-cel-filho {
+        padding: 0px 20px;
+    }
+
+    .bloco-quem-somos-cel-filho p {
+        text-align: left;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        color: #f2f2f2;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    /* bloco-quem-somos-cel */
+}
+
+@media (min-width: 768px) {
+
+    .titulo1 {
+        display: none;
+    }
+
+    .bloco-quem-somos-cel {
+        display: none;
+    }
+
+    .bloco-imagem1 {
+        display: none;
+    }
+
+    .bloco-imagem3 {
+        display: none;
+    }
+
+    /* topo */
+
+    .teste {
+        position: absolute;
+        left: 0;
+        top: 0;
+        justify-content: left;
+        background-color: #f2f2f2;
+    }
+
+    .topo {
+        background-color: #181719;
+    }
+
+    #div-pai {
+        border-bottom: 1px solid #f2f2f2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-filha a {
+        padding: 15px 0px;
+        text-decoration: none;
+        font-size: 13px;
+        font-family: 'Cinzel', serif;
+        color: #f2f2f2;
+        display: inline-block;
+        font-weight: normal;
+        justify-content: left;
+        align-items: center;
+        text-align: center;
+        display: flex;
+
+    }
+
+    .div-filha a:hover {
+        color: red;
+    }
+
+    .div-filha a i {
+        color: red;
+        margin-right: 10px;
+    }
+
+    /* topo */
+
+    /* bloco-quem-somos */
+    .bloco-quem-somos {
+        background-color: #181719;
+        padding: 100px 0px;
+    }
+
+    .bloco-quem-somos img {
+        display: flex;
+        object-fit: cover;
+        margin: 0 auto;
+        max-width: 1366px;
+        max-height: 733px;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* bloco-quem-somos */
+}
